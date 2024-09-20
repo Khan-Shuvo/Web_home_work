@@ -1,0 +1,154 @@
+/* global css start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.global-btn{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.global-section{
+    padding: 3rem 0;
+}
+
+.global-heading{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.global-head-p{
+    color: #7B7B7B;
+    text-align: center;
+}
+
+/* global css end */
+
+/* this is header  */
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+/* Style for the brand name */
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Style for the nav links */
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Style for each nav item */
+.navbar-nav li {
+    margin-left: 20px;
+}
+
+/* Style for the links */
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Add hover effect to the links */
+.navbar-nav a:hover {
+    color: gray;
+}
+
+/* this frist section  */
+ 
+.Frist-Section{
+    background-image: url(./assets/snapedit_1726598054573.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+
+}
+
+.Frist-Section h2{
+    font-size: 4rem;
+    margin: 10px;
+}
+.Frist-Section p {
+    font-size: 2rem;
+}
+
+/* About us section  */
+.abot-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.about-sub-div2{
+width: 500px;
+padding: 10px;
+}
+
+.about-sub-div2 h2 {
+    font-size: 33px;
+}
+.about-sub-div2 p{
+    color: #7B7B7B;
+    margin: 15px 0;
+}
+
+/* This is serves area  */
+
+.grid-container{
+    padding: 5px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5px;
+}
+
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+
+.grid-single-item h2{
+    margin: 15px 0;
+}
+
+.grid-single-item p{
+    color: #7B7B7B;
+}
+
+.costom-icon-size{
+     font-size: 45px;
+}
+
+/* this is work section  */
+
+.work-img{
+    width: 200px;
+    height: 200px;
+
+}
+
+/* footer  */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3rem;
+}
